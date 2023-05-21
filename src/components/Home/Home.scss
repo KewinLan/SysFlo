@@ -1,0 +1,329 @@
+body {
+  background-color: #FF8B2C;
+  block-size:1920px 1080px;
+}
+
+.home-main-title-area {
+  float: left;
+}
+.main-title {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 2.25em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  text-align: center;
+  left: 1.25em; //this is causing page overflow
+  top: 0.5em;
+  line-height: 1.5;
+  // outline: 1px solid red;
+}
+
+.home-custom-made-btn1 button {
+  border: none;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 2.25em;
+  font-weight: bold;
+  color:#FFFCF5;
+  background-color: #420B3B;
+  padding: 0.75em 1em 0.25em 1em;
+  // padding-bottom: -1em;
+  // margin: -1em;
+  line-height: 1em;
+  position: relative;
+  top: 2em;
+  left: 1.25em;
+  border-radius: 2em;
+  // max-width: 90%;
+  // outline: 1px solid red;
+}
+.home-custom-made-btn1 button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
+  // border: 0.001em;
+  // border-style: solid;
+  // border-color: blue;
+}
+
+.home-about-us-btn1 button {
+  border: none;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.6875em;
+  font-weight: bold;
+  color:#FF8B2C;
+  background-color: #420B3B;
+  padding: 0.75em 1em 0.25em 1em;
+  line-height: 1em;
+  position: relative;
+  top: 3.7em;
+  left: 6.5em;
+  border-radius: 2em;
+}
+
+.home-about-us-btn1 button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
+}
+
+
+.home-products-area-top {
+  float: right;
+  // max-width: 90%;
+  // outline: 1px solid red;
+}
+
+
+.gum-images-row1 {
+  display: flex;
+  position: relative;
+  top: 0em;
+  right:2.5em;
+  // outline: 1px solid red;
+}
+
+.banana-cherry-img {
+  filter: drop-shadow(0.5em 0.5em 0.5em rgba(0,0,0,0.5));
+  // margin-left: 0em; //was 5.5
+  margin-right: 4em; //was 10.25
+}
+.peppermint-lemon-img {
+  filter: drop-shadow(0.5em 0.5em 0.5em rgba(0,0,0,0.5));
+  margin-right: 4em;
+}
+.raspberry-peppermint-img {
+  filter: drop-shadow(0.5em 0.5em 0.5em rgba(0,0,0,0.5));
+  margin-right: -1.6em;
+  // max-width: 90%;
+  // outline: 1px solid red;
+}
+.names-of-gum-row1 {
+  display: flex;
+  // max-width: 90%;
+  // outline: 1px solid red;
+}
+.banana-cherry-label {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.6875em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  left: 1em; //this is causing page overflow
+  top: -0.5em;
+  // outline: 1px solid red;
+}
+.peppermint-lemon-label {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.75em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  left: 6.75em; //this is causing page overflow
+  top: -0.5em;
+  // outline: 1px solid red;
+}
+.raspberry-peppermint-label {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.75em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  left: 11em; //this is causing page overflow
+  top: -0.5em;
+  // outline: 1px solid red;
+}
+.home-explore-btn1 button {
+  border: none;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.6875em;
+  font-weight: bold;
+  color:#FF8B2C;
+  background-color: #420B3B;
+  padding: 0.75em 1em 0.25em 1em;
+  line-height: 1em;
+  position: relative;
+  top: -1em;
+  left: 2em;
+  border-radius: 2em;
+}
+.home-explore-btn2 button {
+  border: none;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.6875em;
+  font-weight: bold;
+  color:#FF8B2C;
+  background-color: #420B3B;
+  padding: 0.75em 1em 0.25em 1em;
+  line-height: 1em;
+  position: relative;
+  top: -3em;
+  left: 17.25em;
+  border-radius: 2em;
+}
+.home-explore-btn3 button {
+  border: none;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.6875em;
+  font-weight: bold;
+  color:#FF8B2C;
+  background-color: #420B3B;
+  padding: 0.75em 1em 0.25em 1em;
+  line-height: 1em;
+  position: relative;
+  top: -5em;
+  left: 32em;
+  border-radius: 2em;
+}
+
+.home-bg {
+  background-image: url('../../images/GumBoxes2.png');
+  width:614px;
+  height:512px;
+  position:relative;
+  top:19.5em;
+  left: 6em;
+  background-size: 95%;
+  background-repeat: no-repeat;
+  height: 65vh;
+  // outline: 1px solid red;
+  z-index: -1;
+}
+
+
+
+.gum-images-row2 {
+  display: flex;
+  position: relative;
+  top: -13.75em;
+  // max-width: 90%;
+  left:47.5em;
+  // right:-20em;
+
+  // outline: 1px solid red;
+}
+.cherry-lemon-img {
+  filter: drop-shadow(0.5em 0.5em 0.5em rgba(0,0,0,0.5));
+  margin-right: 4em;
+  // outline: 1px solid red;
+}
+.banana-peppermint-img {
+  filter: drop-shadow(0.5em 0.5em 0.5em rgba(0,0,0,0.5));
+  margin-right: 4em;
+  // outline: 1px solid red;
+}
+.peppermint-cherry-img {
+  filter: drop-shadow(0.5em 0.5em 0.5em rgba(0,0,0,0.5));
+  margin-right: -1.6em;
+  // outline: 1px solid red;
+}
+.names-of-gum-row2 {
+  display: flex;
+  position: relative;
+  top: -40em;
+  left: 0.25em;
+}
+.cherry-lemon-label {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.75em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  left: 29.5em; //this is causing page overflow
+  top: 14.5em;
+  // outline: 1px solid red;
+}
+.banana-peppermint-label {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.75em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  left: 35.5em; //this is causing page overflow
+  top: 14.5em;
+  // outline: 1px solid red;
+}
+.peppermint-cherry-label {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.75em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  left: 39.9em; //this is causing page overflow
+  top: 14.5em;
+  // outline: 1px solid red;
+}
+
+
+
+// .add-to-cart-btn-container {
+//   height: 2em;
+//   position: relative;
+//   border: none;
+//   // max-width: 90%;
+//   // outline: 1px solid red;
+// }
+.home-explore-btn4 button {
+  border: none;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.6875em;
+  font-weight: bold;
+  color:#FF8B2C;
+  background-color: #420B3B;
+  padding: 0.75em 1em 0.25em 1em;
+  line-height: 1em;
+  position: relative;
+  top: -9em;
+  left: 31.5em;
+  border-radius: 2em;
+}
+.home-explore-btn5 button {
+  border: none;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.6875em;
+  font-weight: bold;
+  color:#FF8B2C;
+  background-color: #420B3B;
+  padding: 0.75em 1em 0.25em 1em;
+  line-height: 1em;
+  position: relative;
+  top: -11em;
+  left: 46.75em;
+  border-radius: 2em;
+}
+.home-explore-btn6 button {
+  border: none;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.6875em;
+  font-weight: bold;
+  color:#FF8B2C;
+  background-color: #420B3B;
+  padding: 0.75em 1em 0.25em 1em;
+  line-height: 1em;
+  position: relative;
+  top: -13em;
+  left: 61.5em;
+  border-radius: 2em;
+}
+.home-explore-btn1 button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
+}
+.home-explore-btn2 button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
+}
+.home-explore-btn3 button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
+}
+.home-explore-btn4 button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
+}
+.home-explore-btn5 button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
+}
+.home-explore-btn6 button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
+}

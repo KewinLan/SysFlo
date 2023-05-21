@@ -1,0 +1,24 @@
+.terms-title {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  left: 1em; //this is causing page overflow
+  top: -1.5em;
+  max-width: 90%;
+  // outline: 1px solid red;
+}
+.terms-body {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.125em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  left: 2em; //this is causing page overflow
+  top: -3.5em;
+  width: 103.5em;
+  column-count: 3;
+  column-gap: 11em;
+  // outline: 1px solid red;
+}

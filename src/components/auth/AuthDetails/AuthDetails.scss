@@ -1,0 +1,17 @@
+.logout-button button {
+  border: none;
+  font-family: Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color:#586336;
+  background-color: #FEF27E;
+  padding: 0.25em 1.5em;
+  position: relative;
+  top: 1.25em;
+  left: 0em;
+  border-radius: 1em;
+}
+.logout-button button:hover {
+  background-color: #D5CB35;
+  color: #6B4615;
+}

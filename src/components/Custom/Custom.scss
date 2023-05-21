@@ -1,0 +1,181 @@
+.custom-title {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  left: 1em; //this is causing page overflow
+  top: -1.5em;
+  max-width: 50%;
+  // outline: 1px solid red;
+}
+.custom-body {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  left: 0.75em; //this is causing page overflow
+  top: -2em;
+  inline-size: 16em;
+  overflow-wrap: break-word;
+  // outline: 1px solid red;
+}
+
+.custom-everything {
+  display: flex;
+  width: 98vw;
+  height: 70vh;
+  // outline: 10px solid red;
+}
+
+
+
+
+
+// div:first-of-type {
+//   display: flex;
+//   align-items: flex-start;
+//   margin-bottom: 5px;
+// }
+
+// label {
+//   margin-right: 15px;
+//   line-height: 32px;
+// }
+
+input {
+  appearance: none;
+
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+
+  border: 0.5em solid #420B3B;
+  transition: 0.2s all linear;
+  margin-right: 1em;
+
+  position: relative;
+  top: 0.5em;
+  // outline: 1px solid red;
+}
+
+input:checked {
+  border: 0.9em solid #420B3B;
+}
+
+legend {
+  color: #FF8B2C;
+  background-color: #420B3B;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1em;
+  padding: 0.5em 1em 0em 1em;
+  border-radius: 1em;
+  // border: 2em;
+  // font-size: 14px;
+  // outline: 1px solid red;
+}
+.custom-fieldsets {
+  display: inline-flex;
+  // outline: 1px solid red;
+}
+.flavour1-fieldset {
+  border-color: #420B3B;
+  border-style: solid;
+  border-radius: 1em;
+  width: 12em;
+  // float: left;
+}
+.flavour2-fieldset {
+  border-color: #420B3B;
+  border-style: solid;
+  border-radius: 1em;
+  width: 12em;
+  position: relative;
+  left: 1em;
+  // float: right;
+  // outline: 1px solid red;
+}
+
+
+.custom-explanation {
+  color: #420B3B;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1em;
+  inline-size: 25em;
+  line-height: 2;
+  position: relative;
+  left: 1.5em;
+  text-align: center;
+  // outline: 1px solid red;
+}
+
+
+
+
+
+
+.custom-bg {
+  background-image: url('../../images/GumBoxes1.png');
+  width:1145px;
+  height:954px;
+  position:relative;
+  top:-8.6em;
+  left: 25.3em;
+  background-size: 95%;
+  background-repeat: no-repeat;
+  max-width: 55%;
+  height: 85vh;
+  // outline: 1px solid red;
+  z-index: -1;
+  // overflow: hidden;
+}
+
+.custom-btns {
+  position: relative;
+  top: -8em;
+  // outline: 10px solid red;
+}
+.custom-add-to-cart-btn1 button {
+  border: none;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 2.25em;
+  font-weight: bold;
+  color:#FFFCF5;
+  background-color: #420B3B;
+  padding: 0.75em 1em 0.25em 1em;
+  // padding-bottom: -1em;
+  // margin: -1em;
+  line-height: 1em;
+  position: relative;
+  top: -1.75em;
+  left: 6.5em;
+  border-radius: 2em;
+  // outline: 1px solid red;
+}
+.custom-add-to-cart-btn1 button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
+}
+
+.custom-premade-btn1 button {
+  border: none;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 2.25em;
+  font-weight: bold;
+  color:#FF8B2C;
+  background-color: #420B3B;
+  padding: 0.75em 1em 0.25em 1em;
+  // padding-bottom: -1em;
+  // margin: -1em;
+  line-height: 1em;
+  position: relative;
+  top: -0.75em;
+  left: 5.75em;
+  border-radius: 2em;
+  // outline: 1px solid red;
+}
+.custom-premade-btn1 button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
+}

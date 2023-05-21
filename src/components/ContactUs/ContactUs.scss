@@ -1,0 +1,74 @@
+.contact-title {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  left: 1em; //this is causing page overflow
+  top: -1.5em;
+}
+.contact-email {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.125em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  left: 1em; //this is causing page overflow
+  top: -3.5em;
+}
+.contact-phone {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.125em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  left: 1em; //this is causing page overflow
+  top: -4em;
+}
+.contact-times {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.125em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  line-height: 1.5em;
+  left: 1em; //this is causing page overflow
+  top: -4em;
+}
+
+
+.contact-bg {
+  background-image: url('../../images/GumBoxes1.png');
+    width:1145px;
+    height:954px;
+    position:relative;
+    top:-25.5em;
+    left: 49em;
+    background-size: 87%;
+    background-repeat: no-repeat;
+    height: 90vh;
+    // outline: 1px solid red;
+    z-index: -1;
+}
+
+
+.contact-products-btn1 button {
+  border: none;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 2.25em;
+  font-weight: bold;
+  color:#FF8B2C;
+  background-color: #420B3B;
+  padding: 0.75em 1em 0.25em 1em;
+  // padding-bottom: -1em;
+  // margin: -1em;
+  line-height: 1em;
+  position: relative;
+  top: -25.25em;
+  left: 1em;
+  border-radius: 2em;
+}
+.contact-products-btn1 button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
+}
