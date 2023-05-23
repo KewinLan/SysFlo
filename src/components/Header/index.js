@@ -11,10 +11,7 @@ export default function Header() {
         <nav>
           <div className="bgHeaderLogo">
             <Link to="/" className='logo-text1'>
-              CHEW
-            </Link>
-            <Link to="/" className='logo-text2'>
-              namic
+              SysFlo
             </Link>
           </div>
           <div className="bgHeaderLinks">
@@ -22,11 +19,11 @@ export default function Header() {
               <Link to="/">Home</Link>
             </div>
 
-            <div className="bgHeaderAbout">
-              <Link to="/about">About Us</Link>
+            <div className="bgHeaderFAQ">
+              <Link to="/faq">FAQ</Link>
             </div>
-            <div className="bgHeaderCustom">
-              <Link to="/custom">Custom Order</Link>
+            <div className="bgHeader-for-businesses">
+              <Link to="/forbusinesses">For Businesses</Link>
             </div>
             <div className="bgHeaderCart">
               <Link to="/cart">

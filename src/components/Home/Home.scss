@@ -1,5 +1,5 @@
 body {
-  background-color: #FF8B2C;
+  background-color: #9AB1AB;
   block-size:1920px 1080px;
 }
 
@@ -7,7 +7,7 @@ body {
   float: left;
 }
 .main-title {
-  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-family: Arial;
   font-size: 2.25em;
   font-weight: bold;
   color:#420B3B;
@@ -19,33 +19,8 @@ body {
   // outline: 1px solid red;
 }
 
-.home-custom-made-btn1 button {
-  border: none;
-  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 2.25em;
-  font-weight: bold;
-  color:#FFFCF5;
-  background-color: #420B3B;
-  padding: 0.75em 1em 0.25em 1em;
-  // padding-bottom: -1em;
-  // margin: -1em;
-  line-height: 1em;
-  position: relative;
-  top: 2em;
-  left: 1.25em;
-  border-radius: 2em;
-  // max-width: 90%;
-  // outline: 1px solid red;
-}
-.home-custom-made-btn1 button:hover {
-  background-color: #FFFCF5;
-  color: #420B3B;
-  // border: 0.001em;
-  // border-style: solid;
-  // border-color: blue;
-}
 
-.home-about-us-btn1 button {
+.home-faq-btn1 button {
   border: none;
   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
   font-size: 1.6875em;
@@ -60,7 +35,7 @@ body {
   border-radius: 2em;
 }
 
-.home-about-us-btn1 button:hover {
+.home-faq-btn1 button:hover {
   background-color: #FFFCF5;
   color: #420B3B;
 }

@@ -7,16 +7,12 @@ export default function Home() {
     <div className='first-row'>
       <div className='home-main-title-area'>
         <div className='main-title'>
-          Gum that changes<br></br>flavour as you chew
+the quick red fox jumps over the lazy red dog?!<br></br>
+THE QUICK RED FOX JUMPS OVER THE LAZY RED DOG?!<br></br>
         </div>
-        <div className='home-custom-made-btn1'>
-          <Link to="/custom">
-            <button>Custom-made flavours</button>
-          </Link>
-        </div>
-        <div className='home-about-us-btn1'>
-          <Link to="/about">
-            <button>About us</button>
+        <div className='home-faq-btn1'>
+          <Link to="/faq">
+            <button>FAQ</button>
           </Link>
         </div>
       </div>

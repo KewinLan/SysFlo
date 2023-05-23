@@ -1,6 +1,6 @@
 import './App.scss';
-import About from './components/About';
-import Custom from './components/Custom';
+import FAQ from './components/FAQ';
+import ForBusinesses from './components/ForBusinesses';
 import Cart from './components/Cart';
 import ContactUs from './components/ContactUs';
 import Home from './components/Home';
@@ -17,8 +17,8 @@ function App() {
       <Footer></Footer>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/custom" element={<Custom />} />
+        <Route path="/faq" element={<FAQ />} />
+        <Route path="/forbusinesses" element={<ForBusinesses />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/terms" element={<Terms />} />
@@ -32,6 +32,6 @@ export default App;
 //npm i react-router-dom
 //npm install react-icons
 //npm install firebase
-//The images should be 332 by 245 px. Divide the number by 0.7225
+// /The images should be 332 by 245 px. Divide the number by 0.7225
 
-//Colors:  brown #8C422D  purple #420B3B  white #FFFCF5  orange #FF8B2C
+//Colors:  white #fff  dark-blue #182030  darkish-blue #213F42  light-blue #75CDD9  gray-blue 9AB1AB

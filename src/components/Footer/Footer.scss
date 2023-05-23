@@ -1,10 +1,10 @@
 .bgFooter {
-  background-color: #420B3B;
+  background-color: #182030;
   // padding-bottom: 1em;
   // box-shadow: 0px 1px 15px black;
   // z-index: 1;
-  position: fixed;
-  bottom: -2em;
+  position: relative;
+  bottom: -120em;
   width:100%;
   // outline: 1px solid red;
 }
@@ -117,13 +117,13 @@
   color:#FF8B2C;
 }
 .privacy-link {
-  position:fixed;
+  position:relative;
   right: 0em;
   bottom: 0em;
   margin-right: 1em;
 }
 .terms-link {
-  position:fixed;
+  position:relative;
   right: 0em;
   bottom: 0em;
   margin-right: 6.2em;
