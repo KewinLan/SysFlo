@@ -9,8 +9,8 @@ export default function Header() {
       <div className="bgHeader">
         <nav>
           <div className="bgHeaderLogo">
-            <Link to="/" className='logo-text1'>
-              <img src="images/SysFloLogo.png" className="sysflo-logo" alt="SysFlo Logo" width="184" height="46" />
+            <Link to="/" className='sysflo-logo1'>
+              <img src="images/SysFloLogo.png" alt="SysFlo Logo" className='sysflo-logo-image' width="184" height="46" />
             </Link>
           </div>
           <div className="bgHeaderLinks">
