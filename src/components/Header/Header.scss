@@ -2,11 +2,12 @@
   background-color: #182030;
 //  background-image: url(/images/DirtTexture2_section2.png);
 //  background-position: 50%;
-  padding-bottom: 4em;
+  padding-bottom: 1.5em;
+  padding-right: 111em;
   // size: -10em;
 //  padding:100%;
 // margin-top: -5em;
-//  position:fixed;
+ position:fixed;
 //  top:4.5em;
   //left:-1.5em;
 //  overflow: none;
@@ -135,4 +136,39 @@
   position:relative;
   top:0.1em;
 //  text-decoration: none !important;
+}
+
+
+.header-search-bar input {
+  position: fixed;
+  background-color: #182030;
+  color: #75CDD9;
+  
+  top:3.7em;
+  right:-0.25em;
+  width:95.5%;
+  height: 0em;
+  padding: 1em;
+  border: none;
+  // margin-top: 8px;
+  // margin-right: 16px;
+  font-size: 1em;
+  // outline: 100px solid red;
+  border-radius:0.25em;
+  z-index: 2;
+}
+::-webkit-input-placeholder {
+  color:#9AB1AB;
+}
+
+::-moz-placeholder {
+  color:#9AB1AB;
+}
+
+::-ms-placeholder {
+  color:#9AB1AB;
+}
+
+::placeholder {
+  color:#9AB1AB;
 }

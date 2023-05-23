@@ -37,6 +37,10 @@ export default function Header() {
               <Link to="/contactus">Contact</Link>
             </div>
             <div className="bgHeaderShadow"></div>
+            <div className='header-search-bar'>
+              <br></br>
+              <input type="text" placeholder="Search for products"></input>
+            </div>
           </div>
         </nav>
       </div>
