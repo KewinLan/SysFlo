@@ -30,14 +30,15 @@
 // }
 
 
-.logo-text1 {
+.sysflo-logo {
   font-family: Arial, sans-serif;
   // font-weight: ExtraBold;
-  margin-left: 0.5em;
+  margin-left: 0em;
+  // padding: 0em;
   // margin-bottom: -3em;
   font-size:2.25em;
   position: relative;
-  top:0.25em;
+  top:0.3em;
   float: left;
 }
 .logo-text1:link {
@@ -83,7 +84,7 @@
   //  right: -250%;
   top: 0.7em;
   //  left: 37em;
-  right:-0.25em;
+  right:-5em;
   // right: -34.75em;
   // text-align:right;
   float: right;
@@ -143,19 +144,19 @@
   position: fixed;
   background-color: #182030;
   color: #75CDD9;
-  
+  font-family: arial;
   top:3.7em;
   right:-0.25em;
-  width:95.5%;
+  width:96.25%;
   height: 0em;
-  padding: 1em;
+  padding: 1em 1em 1em 0.5em;
   border: none;
   // margin-top: 8px;
   // margin-right: 16px;
   font-size: 1em;
   // outline: 100px solid red;
   border-radius:0.25em;
-  z-index: 2;
+  // z-index: 2;
 }
 ::-webkit-input-placeholder {
   color:#9AB1AB;
@@ -171,4 +172,14 @@
 
 ::placeholder {
   color:#9AB1AB;
+}
+
+.header-search-icon {
+  margin-top: 2.35em;
+  margin-right: 3.75em;
+  color: #9AB1AB;
+  position: relative;
+  right: 2.75em;
+  // z-index: 1;
+  // outline: 10px solid red;
 }

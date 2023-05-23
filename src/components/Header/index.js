@@ -1,8 +1,7 @@
 import './Header.scss';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaShoppingCart } from 'react-icons/fa';
-
+import { FaShoppingCart, FaSearch } from 'react-icons/fa';
 
 export default function Header() {
   return (
@@ -11,7 +10,7 @@ export default function Header() {
         <nav>
           <div className="bgHeaderLogo">
             <Link to="/" className='logo-text1'>
-              SysFlo
+              <img src="images/SysFloLogo.png" className="sysflo-logo" alt="SysFlo Logo" width="184" height="46" />
             </Link>
           </div>
           <div className="bgHeaderLinks">
@@ -40,6 +39,9 @@ export default function Header() {
             <div className='header-search-bar'>
               <br></br>
               <input type="text" placeholder="Search for products"></input>
+              <div className='header-search-icon'>
+                <FaSearch/>
+              </div>
             </div>
           </div>
         </nav>
