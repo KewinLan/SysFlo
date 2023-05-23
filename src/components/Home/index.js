@@ -7,13 +7,18 @@ export default function Home() {
     <div className='first-row'>
       <div className='home-main-title-area'>
         <div className='main-title'>
-the quick red fox jumps over the lazy red dog?!<br></br>
-THE QUICK RED FOX JUMPS OVER THE LAZY RED DOG?!<br></br>
+        Office supplies, so you can<br></br>
         </div>
-        <div className='home-faq-btn1'>
+        <div className='work-smoothly-text'>
+          <img src="images/WorkSmoothlyText.png" alt="work smoothly" className='home-worksmoothly-image' width="1815" height="191" />
+        </div>
+        <div className='home-btn-and-image'>
           <Link to="/faq">
-            <button>FAQ</button>
+            <button>Shop Now</button>
           </Link>
+          <div className='home-bgimage'>
+            <img src="images/Sysflo_DesktopHome_bg1.png" alt="decorative diagram of some office supplies" className='home-bgimage_image' width="951" height="394" />
+        </div>
         </div>
       </div>
       <div className='home-products-area-top'>

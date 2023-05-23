@@ -8,36 +8,48 @@ body {
 }
 .main-title {
   font-family: Arial;
-  font-size: 2.25em;
-  font-weight: bold;
+  font-size: 1.125em;
+  // font-weight: bold;
   color:#420B3B;
   position:relative;
-  text-align: center;
+  // text-align: center;
   left: 1.25em; //this is causing page overflow
-  top: 0.5em;
+  top: 2em;
   line-height: 1.5;
   // outline: 1px solid red;
 }
 
-
-.home-faq-btn1 button {
-  border: none;
-  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 1.6875em;
-  font-weight: bold;
-  color:#FF8B2C;
-  background-color: #420B3B;
-  padding: 0.75em 1em 0.25em 1em;
-  line-height: 1em;
+.home-worksmoothly-image {
   position: relative;
-  top: 3.7em;
-  left: 6.5em;
-  border-radius: 2em;
+  left: 3em;
+  top: 4.5em;
 }
 
-.home-faq-btn1 button:hover {
-  background-color: #FFFCF5;
-  color: #420B3B;
+
+.home-btn-and-image button {
+  // border: none;
+  border-color: #213F42;
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color:#213F42;
+  background-color: #75CDD9;
+  padding: 0.5em 2em 0.5em 2em;
+  line-height: 1em;
+  position: relative;
+  top: 6.7em;
+  left: 12.25em;
+  border-radius: 0.25em;
+}
+
+.home-btn-and-image button:hover {
+  background-color: #ffffff;
+}
+.home-bgimage {
+  position: relative;
+  z-index: -1;
+  top:-1.25em;
+  left: 40.5em;
 }
 
 
