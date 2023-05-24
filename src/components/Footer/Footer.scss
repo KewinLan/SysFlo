@@ -1,231 +1,54 @@
-.footer-within-the-lines {
-  position: relative;
-  // height:-30em;
-  top: 3em;
-  // box-sizing:border-box;
-  //   -moz-box-sizing:border-box;
-  // padding:0em;
-  // margin-top: 0em;
-  // border: 10px solid red;
-  // outline: 100px solid red;
-}
 .bgFooter {
   position: relative;
   top: 10em;
+  background-color: #182030;
+  display: flex;
 }
 
 
-
-// #footer-row {
-//   display:inline-block
-// // }
-// #footer-year {
+// #logo-text1 {
 //   display:table-cell;
-//   // background-color:red;
-//   width:3.5em;
+//   // background-color:orange;
 //   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-//   font-size:1.125em;
-//   color: #FF8B2C;
+//   font-weight: ExtraBold;
+//   margin-left: 1em;
+//   // margin-bottom: -3em;
 //   position: relative;
 //   left: 1em;
-//   top: -0.25em;
-// }
-#logo-text1 {
-  display:table-cell;
-  // background-color:orange;
-  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-weight: ExtraBold;
-  margin-left: 1em;
-  // margin-bottom: -3em;
-  position: relative;
-  left: 1em;
-  top:-0.25em;
-  font-size:1.125em;
-  // float: left;
-  width: 2.5em;
-}
-#logo-text1:link {
-  color: #FFFCF5;
-}
-#logo-text1:visited {
-  color: #FFFCF5;
-}
-#logo-text1:hover {
-  color: #FFFCF5;
-}
-#logo-text1:active {
-  color: #FFFCF5;
-}
-
-#logo-text2 {
-  // margin-left: 1em;
-  // margin-bottom: -3em;
-  display:table-cell;
-  // background-color:blue;
-  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  position: relative;
-  left: 1em;
-  top:-0.25em;
-  font-size:1.125em;
-  // float: right;
-  width: 3em;
-}
-#logo-text2:link {
-  color: #FF8B2C;
-}
-#logo-text2:visited {
-  color: #FF8B2C;
-}
-#logo-text2:hover {
-  color: #FF8B2C;
-}
-#logo-text2:active {
-  color: #FF8B2C;
-}
-
-
-
-.footer-email {
-  display: flex;
-  // outline: 100px solid red;
-}
-.footer-text1 {
-  // width: 40em;
-  // height: 80em;
-  font-family: Arial, sans-serif;
-  font-size: 1.125em;
-  color: #182030;
-  // background-color: #213F42;
-  // padding: 0em 0em 1em 0em;
-  // margin-top:-20.4em;
-  // position: relative;
-  // left:1em;
-  // right: 20em;
-  // top: -10em;
-  // border-radius: 0.5em;
-  // border:none;
-  outline: 1px solid red;
-}
-.footer-email-type label {
-  // width: 80%;
-  // display: inline-block;
-  font-family: Arial, sans-serif;
-  font-size: 1.125em;
-  position:relative;
-  right: -1em;
-  color: #182030;
-  // outline: 100px solid red;
-  // color: #9AB1AB;
-  // background-color: #182030;
-  // padding: 0.5em 1em 0.5em 1em;
-}
-.footer-email-type input {
-  width: 84em;
-  font-family: Arial, sans-serif;
-  font-size: 1.125em;
-  color: #75CDD9;
-  background-color: #213F42;
-  padding: 0.5em 1em 0.5em 1em;
-  position: relative;
-  left: 2em;
-  top: 0.1em;
-  border-radius: 0.5em;
-  border:none;
-  // outline: 100px solid red;
-  // float:left;
-}
-::-webkit-input-placeholder {
-  color:#9AB1AB;
-}
-
-::-moz-placeholder {
-  color:#9AB1AB;
-}
-
-::-ms-placeholder {
-  color:#9AB1AB;
-}
-
-::placeholder {
-  color:#9AB1AB;
-}
-
-.footer-email-submit input {
-  // display: inline-block;
-  // width: 15.5%;
-  // height: 75%;
-  font-family: Arial, sans-serif;
-  font-size: 1.125em;
-  color: #9AB1AB;
-  background-color: #182030;
-  padding: 0.5em 5em 0.5em 2em;
-  position:relative;
-  top:0.6em;
-  right:-3em;
-  border-radius: 0.5em;
-  border:none;
-  // float:right;
-  // outline: 1000px solid red;
-}
-
-
-.footer-text2 {
-  font-family: Arial, sans-serif;
-  font-size: 1.125em;
-  color: #182030;
-  // padding: 0.5em 5em 0.5em 2em;
-  position:relative;
-  // top:0em;
-  right:-1em;
-  display: flex;
-  // outline: 100px solid red;
-}
-.privacy-link {
-  position: relative;
-  top:1.15em;
-  left:-29em;
-  // outline: 10px solid red;
-}
-
-// #footer-copyright {
-//   display:table;
-//   width:30em;
-//   // position: relative;
-//   // left: 2em;
-//   // font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-//   // font-size: 1em;
-//   // color:Red;
-// }
-
-// #bgFooterLogo {
-//   display:table-cell;
-//   background-color:blue;
-//   width:10em;
-// }
-// #footer-reserved {
-//   display:table-cell;
-//   // background-color:green;
-//   width:10em;
-//   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+//   top:-0.25em;
 //   font-size:1.125em;
-//   color: #FF8B2C;
-//   position: relative;
-//   left: 1.5em;
-//   top: -0.25em;
+//   // float: left;
+//   width: 2.5em;
+// }
+// #logo-text1:link {
+//   color: #FFFCF5;
+// }
+// #logo-text1:visited {
+//   color: #FFFCF5;
+// }
+// #logo-text1:hover {
+//   color: #FFFCF5;
+// }
+// #logo-text1:active {
+//   color: #FFFCF5;
 // }
 
 
+.footer-logo {
 
-// .footer-links {
-//   display: flex;
-//   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-//   font-size: 1em;
-// }
-// .footer-links, a:link, a:visited {
-//   text-decoration: none;
-//   font-weight: bold;
-//   color:#FF8B2C;
-// }
+  // padding-bottom: 1em;
+  // box-shadow: 0px 1px 15px black;
+  // z-index: 1;
+  position: relative;
+  top:1em;
+  // bottom: 100%;
+  // width:100%;
+  // clear: both;
+    // position: relative;
+    // height: 200px;
+    // margin-top: -200px;
+  outline: 10px solid red;
+}
 .privacy-link {
   position:relative;
   right: 0em;
@@ -241,18 +64,3 @@
   // outline: 100px solid red;
 }
 
-.footer-bar {
-  background-color: #182030;
-  // padding-bottom: 1em;
-  // box-shadow: 0px 1px 15px black;
-  // z-index: 1;
-  position: relative;
-  top:1em;
-  // bottom: 100%;
-  // width:100%;
-  // clear: both;
-    // position: relative;
-    // height: 200px;
-    // margin-top: -200px;
-  outline: 10px solid red;
-}

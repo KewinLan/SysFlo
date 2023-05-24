@@ -1,4 +1,4 @@
-import Footer from '../Footer';
+// import Footer from '../Footer';
 import './Home.scss';
 import { Link } from 'react-router-dom';
 
@@ -59,7 +59,27 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Footer></Footer>
+
+
+      <div className="bgFooter">
+        <div className='footer-logo'>
+          <Link to="/" className='logo-text1'>
+            <img src="images/SysFloLogo.png" alt="SysFlo" className='sysflo-logo-image' width="184" height="46" />
+          </Link>
+        </div>
+        <div className='footer-s-right'>
+          <div className="terms">
+            <Link to="/terms" className='terms-link'>
+              Legal
+            </Link>
+          </div>
+          <div className="privacy">
+            <Link to="/privacy" className='privacy-link'>
+              Privacy
+            </Link>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

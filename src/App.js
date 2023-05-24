@@ -5,7 +5,7 @@ import Cart from './components/Cart';
 import ContactUs from './components/ContactUs';
 import Home from './components/Home';
 import { Route, Routes } from 'react-router-dom';
-//import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import Header from './components/Header';
 import Terms from './components/Terms';
 import Privacy from './components/Privacy';
