@@ -1,3 +1,4 @@
+import Footer from '../Footer';
 import './Home.scss';
 import { Link } from 'react-router-dom';
 
@@ -58,6 +59,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </>
   );
 };

@@ -1,29 +1,33 @@
-.bgFooter {
+.footer-bar {
   background-color: #182030;
   // padding-bottom: 1em;
   // box-shadow: 0px 1px 15px black;
   // z-index: 1;
-  position: relative;
-  bottom: -120em;
-  width:100%;
-  // outline: 1px solid red;
+  // position: relative;
+  // bottom: 100%;
+  // width:100%;
+  // clear: both;
+    // position: relative;
+    // height: 200px;
+    // margin-top: -200px;
+  outline: 10px solid red;
 }
 
 
-#footer-row {
-  display:inline-block
-}
-#footer-year {
-  display:table-cell;
-  // background-color:red;
-  width:3.5em;
-  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size:1.125em;
-  color: #FF8B2C;
-  position: relative;
-  left: 1em;
-  top: -0.25em;
-}
+// #footer-row {
+//   display:inline-block
+// // }
+// #footer-year {
+//   display:table-cell;
+//   // background-color:red;
+//   width:3.5em;
+//   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+//   font-size:1.125em;
+//   color: #FF8B2C;
+//   position: relative;
+//   left: 1em;
+//   top: -0.25em;
+// }
 #logo-text1 {
   display:table-cell;
   // background-color:orange;
@@ -92,30 +96,30 @@
 //   background-color:blue;
 //   width:10em;
 // }
-#footer-reserved {
-  display:table-cell;
-  // background-color:green;
-  width:10em;
-  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size:1.125em;
-  color: #FF8B2C;
-  position: relative;
-  left: 1.5em;
-  top: -0.25em;
-}
+// #footer-reserved {
+//   display:table-cell;
+//   // background-color:green;
+//   width:10em;
+//   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+//   font-size:1.125em;
+//   color: #FF8B2C;
+//   position: relative;
+//   left: 1.5em;
+//   top: -0.25em;
+// }
 
 
 
-.footer-links {
-  display: flex;
-  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 1em;
-}
-.footer-links, a:link, a:visited {
-  text-decoration: none;
-  font-weight: bold;
-  color:#FF8B2C;
-}
+// .footer-links {
+//   display: flex;
+//   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+//   font-size: 1em;
+// }
+// .footer-links, a:link, a:visited {
+//   text-decoration: none;
+//   font-weight: bold;
+//   color:#FF8B2C;
+// }
 .privacy-link {
   position:relative;
   right: 0em;
