@@ -2,11 +2,13 @@ import React from 'react';
 // import ImageSlider from "../ImageSlider";
 // import AuthDetails from '../auth/AuthDetails/AuthDetails';
 import './Cart.scss';
+import { Link } from 'react-router-dom';
 // import SignIn from '../auth/SignIn/SignIn';
 // import SignUp from '../auth/SignUp/SignUp';
 
 export default function Cart() {
   return (
+    <>
     <div className='cart-everything'>
       <div className='cart-title'>
         <h1>Your Cart (6 items)</h1>
@@ -80,10 +82,34 @@ export default function Cart() {
         <div className='cart-bottom-button1'>
           <button>Keep Shopping</button>
         </div>
-        <div className='cart-bottom-button1'>
-          <button>Checkout</button>
+        <div className='cart-bottom-button2'>
+          <Link to="/">
+            <button>Checkout</button>
+          </Link>
         </div>
       </div>
     </div>
+
+    
+    <div className="cart-Footer">
+        <div className='cart-footer-logo'>
+          <Link to="/" className='cart-logo-text1'>
+            <img src="images/SysFloLogo.png" alt="SysFlo" className='sysflo-logo-image' width="184" height="46" />
+          </Link>
+        </div>
+        <div className='cart-footer-s-right'>
+          <div className="cart-terms">
+            <Link to="/terms" className='terms-link'>
+              Legal
+            </Link>
+          </div>
+          <div className="cart-privacy">
+            <Link to="/privacy" className='privacy-link'>
+              Privacy
+            </Link>
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
