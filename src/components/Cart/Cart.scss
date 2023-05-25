@@ -1,71 +1,121 @@
-// .cart-everything {
-//   // outline: 1px solid red;
-//   // height: 780px;
-// }
+.cart-everything {
+  font-family: Arial, sans-serif;
+  // outline: 1px solid red;
+  // height: 780px;
+}
 .cart-title {
-  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  // font-family: Arial, sans-serif;
   font-size: 1em;
-  font-weight: bold;
-  color:#420B3B;
+  // font-weight: bold;
+  color:#182030;
   position:relative;
   left: 1em; //this is causing page overflow
-  top: -1.5em;
+  top: 8.25em;
   display: flex;
-  max-width: 50%;
+  // max-width: 50%;
   // outline: 1px solid red;
 }
-.sign-in-head2 {
-  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 1.125em;
-  font-weight: bold;
-  color:#420B3B;
+.cart-product-names {
+  color:#182030;
   position:relative;
-  left: 1em; //this is causing page overflow
-  top: -1.5em;
-  margin-bottom: -6.5em;
-  // outline: 1px solid red;
+  left: 4.5em;
+  top: 5.75em;
+  font-weight: bold;
+  display: flex;
+  // margin-right: 1em;
+  // font-family: Arial, sans-serif;
+  font-size: 1.125em;
 }
-.sign-up-head2 {
-  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+.cart-product-name2 {
+  position:relative;
+  left: 17.5em;
+}
+.cart-product-name3 {
+  position:relative;
+  left: 38.75em;
+}
+.cart-product-name4 {
+  position:relative;
+  left: 58em;
+}
+.cart-product-images {
+  position:relative;
+  left: -1.5em;
+  top: 1.5em;
+  // margin-right: 1em;
+}
+.cart-prev-btn {
+  position:relative;
+  left: 2.75em; //this is causing page overflow
+  top: -1.5em;
+}
+.cart-product-img1 {
+  position:relative;
+  left: 3.75em; //this is causing page overflow
+  top: 4.5em;
+}
+.cart-product-img2 {
+  position:relative;
+  left: 6.5em; //this is causing page overflow
+  top: 4.5em;
+}
+.cart-product-img3 {
+  position:relative;
+  left: 9.25em; //this is causing page overflow
+  top: 4.5em;
+}
+.cart-product-img4 {
+  position:relative;
+  left: 11.75em; //this is causing page overflow
+  top: 4.5em;
+}
+.cart-next-btn {
+  position:relative;
+  left: 16em; //this is causing page overflow
+  top: -1.5em;
+}
+.cart-product-descriptions {
+  color:#182030;
+  position:relative;
+  left: 4.5em;
+  top: 5.75em;
+  display: flex;
+  // margin-right: 1em;
+  // font-family: Arial, sans-serif;
+  font-size: 1.125em;
+}
+.cart-product-buttons{
+  // color:#182030;
+  position:relative;
+  left: 4.5em;
+  top: 5.75em;
+  display: flex;
+  // margin-right: 1em;
+  // font-family: Arial, sans-serif;
+  font-size: 1.125em;
+}
+.cart-product-buttons button{
+  background-color: #213F42;
+  color:#9AB1AB;
+  border:none;
+  padding: 0.5em 1em 0.5em 1em;
+  margin: 0.5em;
+  border-radius: 0.5em;
+  position:relative;
+  left: -0.5em;
+  // top: 5.75em;
+  // display: flex;
+  // margin-right: 1em;
+  // font-family: Arial, sans-serif;
   font-size: 1em;
-  font-weight: bold;
-  color:#420B3B;
-  position:relative;
-  left: 1em; //this is causing page overflow
-  top: -1.5em;
-  margin-bottom: -6.5em;
-  // outline: 1px solid red;
 }
-
-.account-section {
-  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 1.125em;
-  font-weight: bold;
-  color:#420B3B;
-  position:relative;
-  left: 1em;
-  top: -3em;
-  display: flex;
-  // width: 50em;
-  max-width: 50%;
-  // outline: 1px solid red;
+.cart-product-buttons button:hover{
+  background-color: #182030;
+  color:#9AB1AB;
+  font-size: 1em;
 }
-.sign-up-section {
-  margin-left:4em;
+.cart-product-buttons2 {
   position:relative;
-  top:0em;
-  font-size: 1.125em;
-  // outline: 1px solid red;
-}
-.authdetails-section {
-  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 1.125em;
-  font-weight: bold;
-  color:#420B3B;
-  position:relative;
-  left: 1em; //this is causing page overflow
-  // top: 10em;
-  // bottom: 0em;
-  max-width: 50%;
-  // outline: 1px solid red;
+  left: 4em;
+  // margin:1em;
 }
