@@ -25,7 +25,7 @@ export default function Privacy() {
           Third Parties<br></br>
           You agree that we will sell your data to third parties such as marketing agencies for the purposes of advertising.<br></br>
           Opt-Out<br></br>
-          You may opt-out of parts of this privacy policy by contacting us at privacy@PulpySeed.com. You may also request a copy of your data. You may also request to have your data modified.
+          You may opt-out of parts of this privacy policy by contacting us at privacy@SysFlo.com. You may also request a copy of your data. You may also request to have your data modified.
         </p>
       </div>
 

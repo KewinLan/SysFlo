@@ -10,15 +10,18 @@ export default function ContactUs() {
       </div>
       <div className='contact-form'>
         <div className='contact-email'>
-          .
+          <label htmlFor="email">Enter your email:</label>
+          <input type="email" id="email" name="email" placeholder="Email Address"></input>
         </div>
         <div className='contact-message'>
+          <label htmlFor="email">Enter your message:</label>
+          <textarea name="text" cols="40" rows="3" placeholder="Message"></textarea>
         </div>
         <div className='contact-agreement'>
           <div className='contact-checkbox'>
-          </div>
-          <div className='contact-checkbox-text'>
-            <p>I have read and agreed to the </p>
+            <input type="checkbox" id="agree" name="agree" value="Agree"></input>
+            <span className="checkmark"></span>
+            <label htmlFor="agree"> I have read and agreed to the </label><br></br>
           </div>
           <div className='contact-checkbox-privacy'>
             <Link to="/privacy" className='contact-checkbox-privacy-link'>
@@ -39,6 +42,26 @@ export default function ContactUs() {
         </div>
       </div>
       <div className='contact-bg'></div>
+
+      <div className="contact-footer">
+        <div className='contact-footer-logo'>
+          <Link to="/" className='contact-logo-text1'>
+            <img src="images/SysFloLogo.png" alt="SysFlo" className='contact-sysflo-logo-image' width="184" height="46" />
+          </Link>
+        </div>
+        <div className='contact-footer-s-right'>
+          <div className="contact-terms">
+            <Link to="/terms" className='contact-terms-link'>
+              Legal
+            </Link>
+          </div>
+          <div className="contact-privacy">
+            <Link to="/privacy" className='contact-privacy-link'>
+              Privacy
+            </Link>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
