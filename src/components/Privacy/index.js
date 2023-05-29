@@ -1,5 +1,6 @@
 import './Privacy.scss';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Privacy() {
   return (
@@ -24,8 +25,29 @@ export default function Privacy() {
           Third Parties<br></br>
           You agree that we will sell your data to third parties such as marketing agencies for the purposes of advertising.<br></br>
           Opt-Out<br></br>
-          You may opt-out of parts of this privacy policy by contacting us at privacy@Chewnamic.com. You may also request a copy of your data. You may also request to have your data modified.
+          You may opt-out of parts of this privacy policy by contacting us at privacy@PulpySeed.com. You may also request a copy of your data. You may also request to have your data modified.
         </p>
+      </div>
+
+
+      <div className="privacy-footer">
+        <div className='privacy-footer-logo'>
+          <Link to="/" className='privacy-logo-text1'>
+            <img src="images/SysFloLogo.png" alt="SysFlo" className='privacy-sysflo-logo-image' width="184" height="46" />
+          </Link>
+        </div>
+        <div className='privacy-footer-s-right'>
+          <div className="terms">
+            <Link to="/terms" className='privacy-terms-link'>
+              Legal
+            </Link>
+          </div>
+          <div className="privacy">
+            <Link to="/privacy" className='privacy-privacy-link'>
+              Privacy
+            </Link>
+          </div>
+        </div>
       </div>
     </>
   );

@@ -1,25 +1,97 @@
 .privacy-title {
-  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 1em;
   font-weight: bold;
-  color:#420B3B;
+  color:#182030;
   position:relative;
   left: 1em; //this is causing page overflow
-  top: -1.5em;
+  top: 6.5em;
+  display: flex;
   max-width: 90%;
   // outline: 1px solid red;
   // flex-wrap: wrap;
 }
 .privacy-body {
-  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 1.125em;
-  font-weight: bold;
-  color:#420B3B;
+  // font-weight: bold;
+  color:#182030;
   position:relative;
   left: 2em; //this is causing page overflow
-  top: -3.5em;
-  width: 103.5em;
+  top: 4.5em;
+  width: 80.5em;
   column-count: 2;
   column-gap: 11em;
   // outline: 1px solid red;
 }
+
+
+// Footer below
+
+.privacy-footer {
+  position: relative;
+  top: 21.4em;
+  width: 100%;
+  height: 4em;
+  background-color: #182030;
+  display: flex;
+}
+
+.privacy-footer-logo {
+
+  // padding-bottom: 1em;
+  // box-shadow: 0px 1px 15px black;
+  // z-index: 1;
+  position: relative;
+  top:0.5em;
+  // bottom: 100%;
+  // width:100%;
+  // clear: both;
+    // position: relative;
+    // height: 200px;
+    // margin-top: -200px;
+  // outline: 10px solid red;
+  // float: left;
+}
+// .privacy-footer-s-right {
+//   // float: right;
+//   position: relative;
+//   top:1em;
+// }
+
+.privacy-terms-link {
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  color:#9AB1AB;
+  // padding: 0.5em 2em 0.5em 2em;
+  text-decoration-style: none;
+  position:relative;
+  right: -75em;
+  top:1.5em;
+  // margin-right: 6.2em;
+  // float:left;
+  // outline: 100px solid red;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+
+
+.privacy-privacy-link {
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  // font-weight: bold;
+  color:#9AB1AB;
+  // padding: 0.5em 2em 0.5em 2em;
+  position:relative;
+  right: -79.25em;
+  top:0.15em;
+  // margin-right: 1em;
+  // outline: 100px solid red;
+  // float:right;
+}
+
+
+// Footer above
