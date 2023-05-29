@@ -2,7 +2,7 @@
   background-color: #182030;
 //  background-image: url(/images/DirtTexture2_section2.png);
 //  background-position: 50%;
-  padding-bottom: 1.5em;
+  padding-bottom: 0.75em;
   padding-right: 111em;
   // size: -10em;
 //  padding:100%;
@@ -55,12 +55,12 @@
 }
 
 .sysflo-logo-image {
-  margin-left: 0em;
+  margin-left: -0.1em;
   // padding: 0em;
   // margin-bottom: -3em;
   font-size:2.25em;
   position: relative;
-  top:0.4em;
+  top:0.2em;
 }
 
 // .logo-text2 {
@@ -93,7 +93,7 @@
   //  right: -250%;
   top: 0.7em;
   //  left: 37em;
-  right:-5em;
+  right:-5.25em;
   // right: -34.75em;
   // text-align:right;
   float: right;
@@ -154,15 +154,15 @@
   background-color: #182030;
   color: #75CDD9;
   font-family: arial;
-  top:3.7em;
-  right:-0.25em;
-  width:96.25%;
+  top:4em;
+  right:-0.4em;
+  width:96.5%;
   height: 0em;
   padding: 1em 1em 1em 0.5em;
   border: none;
   // margin-top: 8px;
   // margin-right: 16px;
-  font-size: 1em;
+  font-size: 0.75em;
   // outline: 100px solid red;
   border-radius:0.25em;
   // z-index: 2;
@@ -184,11 +184,12 @@
 }
 
 .header-search-icon {
-  margin-top: 2.35em;
+  margin-top: 1.65em;
   margin-right: 3.75em;
   color: #9AB1AB;
   position: relative;
-  right: 2.75em;
+  right: 2.25em;
+  top: -0.25em;
   // z-index: 1;
   // outline: 10px solid red;
 }

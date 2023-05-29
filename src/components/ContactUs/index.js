@@ -8,24 +8,37 @@ export default function ContactUs() {
       <div className='contact-title'>
         <h1>Contact Us</h1>
       </div>
-      <div className='contact-email'>
-        <p>Chewnamic@example.com</p>
-      </div>
-      <div className='contact-phone'>
-        <p>555-0100</p>
-      </div>
-      <div className='contact-times'>
-        <p>Mon to Fri<br></br>8 am to 10 pm ET<br></br><br></br>Sat and Sun<br></br>9 am to 8 pm ET</p>
+      <div className='contact-form'>
+        <div className='contact-email'>
+          .
+        </div>
+        <div className='contact-message'>
+        </div>
+        <div className='contact-agreement'>
+          <div className='contact-checkbox'>
+          </div>
+          <div className='contact-checkbox-text'>
+            <p>I have read and agreed to the </p>
+          </div>
+          <div className='contact-checkbox-privacy'>
+            <Link to="/privacy" className='contact-checkbox-privacy-link'>
+              <p>Privacy Policy.</p>
+            </Link>
+          </div>
+        </div>
+        <div className='contact-disclaimer'>
+          <p>I understand that I can unsubscribe from electronic communications from SysFlo at any time by using the contact information below or by clicking the unsubscribe link in an electronic communication.</p>
+        </div>
+        <div className='contact-address'>
+          <p>SysFlo, 123 Some Street, Toronto, ON, Canada</p>
+        </div>
+        <div className='contact-submit'>
+          <button>
+            <p>Submit</p>
+          </button>
+        </div>
       </div>
       <div className='contact-bg'></div>
-
-      <div className='contact-btns'>
-        <Link to="/">
-          <div className='contact-products-btn1'>
-            <button>Products</button>
-          </div>
-        </Link>
-      </div>
     </>
   );
 };

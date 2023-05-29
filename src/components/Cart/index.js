@@ -29,14 +29,14 @@ export default function Cart() {
       </div>
       <div className='cart-product-images'>
         <button className='cart-prev-btn'>
-          <img src="images/LeftChevron.png" alt="Previous" width="26" height="42" />
+          <img src="images/LeftChevron.png" alt="Previous" width="21" height="34" />
         </button>
-        <img src="images/WritingUtencilsCart.png" alt="Writing Utencils" className='cart-product-img1' width="407" height="210" />
-        <img src="images/ElasticsCart.png" alt="Elastics" className='cart-product-img2' width="407" height="210" />
-        <img src="images/PaperClipsCart.png" alt="Paper Clips" className='cart-product-img3' width="407" height="210" />
-        <img src="images/BinderClipsCart.png" alt="Binder Clips" className='cart-product-img4' width="407" height="210" />
+        <img src="images/WritingUtencilsCart.png" alt="Writing Utencils" className='cart-product-img1' width="330" height="170" />
+        <img src="images/ElasticsCart.png" alt="Elastics" className='cart-product-img2' width="330" height="170" />
+        <img src="images/PaperClipsCart.png" alt="Paper Clips" className='cart-product-img3' width="330" height="170" />
+        <img src="images/BinderClipsCart.png" alt="Binder Clips" className='cart-product-img4' width="330" height="170" />
         <button className='cart-next-btn'>
-          <img src="images/RightChevron.png" alt="next" width="26" height="42" />
+          <img src="images/RightChevron.png" alt="next" width="21" height="34" />
         </button>
       </div>
       <div className='cart-product-descriptions'>
