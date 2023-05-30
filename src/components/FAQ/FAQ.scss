@@ -11,7 +11,7 @@
   color:#182030;
   position:relative;
   // text-align: center;
-  left: 0.75em; //this is causing page overflow
+  left: 0.75em;
   top: 6em;
   // line-height: 1.5;
   // outline: 1px solid red;
@@ -25,13 +25,13 @@
   // font-weight: bold;
   color:#182030;
   position:relative;
-  left: 1em; //this is causing page overflow
+  left: 1em;
   top: 6.5em;
   inline-size: 20em;
   line-height: 2;
   width: 48em;
   overflow-wrap: break-word;
-  outline: 1px solid red;
+  // outline: 1px solid red;
 }
 // .faq-q1-question  {
 //   position: relative;
@@ -102,15 +102,7 @@
   background-color: #ffffff;
   cursor: pointer;
 }
-// .faq-slogan {
-//   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-//   font-size: 2.5em;
-//   font-weight: bold;
-//   color:#D5CB35;
-//   position:relative;
-//   inline-size: 16em;
-//   overflow-wrap: break-word;
-// }
+
 
 // .faq-everything {
 //   display: flex;
@@ -129,7 +121,7 @@
     background-size: 95%;
     background-repeat: no-repeat;
     height: 90vh;
-    outline: 1px solid red;
+    // outline: 1px solid red;
     z-index: -1;
 }
 
@@ -138,27 +130,6 @@
 // }
 
 
-// .faq-premade-btn1 button {
-//   border: none;
-//   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-//   font-size: 2.25em;
-//   font-weight: bold;
-//   color:#FF8B2C;
-//   background-color: #420B3B;
-//   padding: 0.75em 1em 0.25em 1em;
-//   // padding-bottom: -1em;
-//   // margin: -1em;
-//   line-height: 1em;
-//   position: relative;
-//   top: 11.5em;
-//   left: -37.65em;
-//   border-radius: 2em;
-//   // outline: 1px solid red;
-// }
-// .faq-premade-btn1 button:hover {
-//   background-color: #FFFCF5;
-//   color: #420B3B;
-// }
 
 
 // Footer below

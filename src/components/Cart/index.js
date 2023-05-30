@@ -1,10 +1,6 @@
 import React from 'react';
-// import ImageSlider from "../ImageSlider";
-// import AuthDetails from '../auth/AuthDetails/AuthDetails';
 import './Cart.scss';
 import { Link } from 'react-router-dom';
-// import SignIn from '../auth/SignIn/SignIn';
-// import SignUp from '../auth/SignUp/SignUp';
 
 export default function Cart() {
   return (

@@ -31,6 +31,5 @@ export default App;
 //npm i react-router-dom
 //npm install react-icons
 //npm install firebase
-// /The images should be 332 by 245 px. Divide the number by 0.7225
 
 //Colors:  white #fff  dark-blue #182030  darkish-blue #213F42  light-blue #75CDD9  gray-blue 9AB1AB
