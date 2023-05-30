@@ -80,7 +80,9 @@ export default function Cart() {
           <p>Subtotal: $27.44<br></br>Applicable taxes and shipping fees will be calculated at checkout.</p>
         </div>
         <div className='cart-bottom-button1'>
-          <button>Keep Shopping</button>
+          <Link to="/">
+            <button>Keep Shopping</button>
+          </Link>
         </div>
         <div className='cart-bottom-button2'>
           <Link to="/">

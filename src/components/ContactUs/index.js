@@ -19,9 +19,11 @@ export default function ContactUs() {
         </div>
         <div className='contact-agreement'>
           <div className='contact-checkbox'>
-            <input type="checkbox" id="agree" name="agree" value="Agree"></input>
-            <span className="checkmark"></span>
-            <label htmlFor="agree"> I have read and agreed to the </label><br></br>
+            <label class="container">One
+              <input type="checkbox" id="agree" name="agree" value="Agree"></input>
+              <span className="checkmark"></span>
+              <label htmlFor="agree"> I have read and agreed to the </label><br></br>
+            </label>
           </div>
           <div className='contact-checkbox-privacy'>
             <Link to="/privacy" className='contact-checkbox-privacy-link'>

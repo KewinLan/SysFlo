@@ -1,181 +1,268 @@
-.for-businesses-title {
-  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+.forbusinesses-title {
+  font-family: Arial, sans-serif;
   font-size: 1em;
   font-weight: bold;
-  color:#420B3B;
+  color:#182030;
+  display: flex;
   position:relative;
   left: 1em; //this is causing page overflow
-  top: -1.5em;
+  top: 7.25em;
   max-width: 50%;
   // outline: 1px solid red;
 }
-.for-businesses-body {
-  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 1.5em;
-  font-weight: bold;
-  color:#420B3B;
-  position:relative;
-  left: 0.75em; //this is causing page overflow
-  top: -2em;
-  inline-size: 16em;
-  overflow-wrap: break-word;
-  // outline: 1px solid red;
-}
-
-.for-businesses-everything {
+.forbusinesses-everything {
   display: flex;
-  width: 98vw;
-  height: 70vh;
+  position: relative;
+  top: 7.5em;
+  color: #75CDD9;
+  // width: 98vw;
+  // height: 70vh;
   // outline: 10px solid red;
 }
-
-
-
-
-
-// div:first-of-type {
-//   display: flex;
-//   align-items: flex-start;
-//   margin-bottom: 5px;
-// }
-
-// label {
-//   margin-right: 15px;
-//   line-height: 32px;
-// }
-
-input {
-  appearance: none;
-
-  border-radius: 50%;
-  width: 2em;
-  height: 2em;
-
-  border: 0.5em solid #420B3B;
-  transition: 0.2s all linear;
-  margin-right: 1em;
-
-  position: relative;
-  top: 0.5em;
-  // outline: 1px solid red;
-}
-
-input:checked {
-  border: 0.9em solid #420B3B;
-}
-
-legend {
-  color: #FF8B2C;
-  background-color: #420B3B;
-  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+.forbusinesses-body {
+  display: flex;
+  font-family: Arial, sans-serif;
   font-size: 1em;
-  padding: 0.5em 1em 0em 1em;
-  border-radius: 1em;
-  // border: 2em;
-  // font-size: 14px;
+  color: #75CDD9;
+  // font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  // font-size: 1.5em;
+  // font-weight: bold;
+  // color:#420B3B;
+  position:relative;
+  left: 1em; //this is causing page overflow
+  // margin-right: 1em;
+  // top: -2em;
+  // inline-size: 16em;
+  // overflow-wrap: break-word;
   // outline: 1px solid red;
 }
-.for-businesses-fieldsets {
-  display: inline-flex;
-  // outline: 1px solid red;
+.forbusinesses-small-busi {
+  color: #75CDD9;
+  margin-right: 4em;
 }
-.flavour1-fieldset {
-  border-color: #420B3B;
-  border-style: solid;
-  border-radius: 1em;
+.forbusinesses-small-busi h2 {
+  position: relative;
+  top: -15.25em;
+  left: 1em;
+  color: #75CDD9;
+  // font-weight: bold;
+}
+.forbusinesses-small-busi p {
+  position: relative;
+  top: -23.5em;
+  left: 3em;
+  color: #75CDD9;
+}
+
+.forbusinesses-large-busi h2 {
+  position: relative;
+  top: -15.25em;
+  left: 1em;
+  color: #75CDD9;
+  // font-weight: bold;
+}
+.forbusinesses-large-busi p {
+  position: relative;
+  top: -23.5em;
+  left: 3em;
   width: 12em;
+  color: #75CDD9;
+}
+
+
+
+
+// // div:first-of-type {
+// //   display: flex;
+// //   align-items: flex-start;
+// //   margin-bottom: 5px;
+// // }
+
+// // label {
+// //   margin-right: 15px;
+// //   line-height: 32px;
+// // }
+
+// input {
+//   appearance: none;
+
+//   border-radius: 50%;
+//   width: 2em;
+//   height: 2em;
+
+//   border: 0.5em solid #420B3B;
+//   transition: 0.2s all linear;
+//   margin-right: 1em;
+
+//   position: relative;
+//   top: 0.5em;
+//   // outline: 1px solid red;
+// }
+
+// input:checked {
+//   border: 0.9em solid #420B3B;
+// }
+
+// legend {
+//   color: #FF8B2C;
+//   background-color: #420B3B;
+//   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+//   font-size: 1em;
+//   padding: 0.5em 1em 0em 1em;
+//   border-radius: 1em;
+//   // border: 2em;
+//   // font-size: 14px;
+//   // outline: 1px solid red;
+// }
+// .for-businesses-fieldsets {
+//   display: inline-flex;
+//   // outline: 1px solid red;
+// }
+// .flavour1-fieldset {
+//   border-color: #420B3B;
+//   border-style: solid;
+//   border-radius: 1em;
+//   width: 12em;
+//   // float: left;
+// }
+// .flavour2-fieldset {
+//   border-color: #420B3B;
+//   border-style: solid;
+//   border-radius: 1em;
+//   width: 12em;
+//   position: relative;
+//   left: 1em;
+//   // float: right;
+//   // outline: 1px solid red;
+// }
+
+
+// .for-businesses-explanation {
+//   color: #420B3B;
+//   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+//   font-size: 1em;
+//   inline-size: 25em;
+//   line-height: 2;
+//   position: relative;
+//   left: 1.5em;
+//   text-align: center;
+//   // outline: 1px solid red;
+// }
+
+
+
+
+
+
+// .for-businesses-bg {
+//   background-image: url('../../images/GumBoxes1.png');
+//   width:1145px;
+//   height:954px;
+//   position:relative;
+//   top:-8.6em;
+//   left: 25.3em;
+//   background-size: 95%;
+//   background-repeat: no-repeat;
+//   max-width: 55%;
+//   height: 85vh;
+//   // outline: 1px solid red;
+//   z-index: -1;
+//   // overflow: hidden;
+// }
+
+// .for-businesses-btns {
+//   position: relative;
+//   top: -8em;
+//   // outline: 10px solid red;
+// }
+// .for-businesses-add-to-cart-btn1 button {
+//   border: none;
+//   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+//   font-size: 2.25em;
+//   font-weight: bold;
+//   color:#FFFCF5;
+//   background-color: #420B3B;
+//   padding: 0.75em 1em 0.25em 1em;
+//   // padding-bottom: -1em;
+//   // margin: -1em;
+//   line-height: 1em;
+//   position: relative;
+//   top: -1.75em;
+//   left: 6.5em;
+//   border-radius: 2em;
+//   // outline: 1px solid red;
+// }
+
+
+// Footer below
+
+.forbusinesses-footer {
+  position: relative;
+  top: 6.75em;
+  width: 100%;
+  height: 4em;
+  background-color: #182030;
+  display: flex;
+  // z-index: -4;
+}
+
+.forbusinesses-footer-logo {
+  // padding-bottom: 1em;
+  // box-shadow: 0px 1px 15px black;
+  // z-index: 1;
+  position: relative;
+  top:0.5em;
+  // bottom: 100%;
+  // width:100%;
+  // clear: both;
+    // position: relative;
+    // height: 200px;
+    // margin-top: -200px;
+  // outline: 10px solid red;
   // float: left;
 }
-.flavour2-fieldset {
-  border-color: #420B3B;
-  border-style: solid;
-  border-radius: 1em;
-  width: 12em;
-  position: relative;
-  left: 1em;
-  // float: right;
-  // outline: 1px solid red;
-}
-
-
-.for-businesses-explanation {
-  color: #420B3B;
-  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+// .contact-footer-s-right {
+//   // float: right;
+//   position: relative;
+//   top:1em;
+// }
+// .forbusinesses-footer-s-right {
+//   color: red;
+// }
+.forbusinesses-terms-link {
+  font-family: Arial, sans-serif;
   font-size: 1em;
-  inline-size: 25em;
-  line-height: 2;
-  position: relative;
-  left: 1.5em;
-  text-align: center;
-  // outline: 1px solid red;
-}
-
-
-
-
-
-
-.for-businesses-bg {
-  background-image: url('../../images/GumBoxes1.png');
-  width:1145px;
-  height:954px;
+  color:#9AB1AB;
+  // padding: 0.5em 2em 0.5em 2em;
+  text-decoration-style: none;
   position:relative;
-  top:-8.6em;
-  left: 25.3em;
-  background-size: 95%;
-  background-repeat: no-repeat;
-  max-width: 55%;
-  height: 85vh;
-  // outline: 1px solid red;
-  z-index: -1;
-  // overflow: hidden;
+  right: -74.75em;
+  top:1.1em;
+    // z-index: 4;
+  // margin-right: 6.2em;
+  // float:left;
+  // outline: 100px solid red;
+}
+.forbusinesses-terms-link a:hover, .forbusinesses-terms-link a:visited, .forbusinesses-terms-link a:link, .forbusinesses-terms-link a:active {
+    text-decoration: none;
 }
 
-.for-businesses-btns {
-  position: relative;
-  top: -8em;
-  // outline: 10px solid red;
+.forbusinesses-privacy-link {
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  // font-weight: bold;
+  color:#9AB1AB;
+  // padding: 0.5em 2em 0.5em 2em;
+  position:relative;
+  right: -79.25em;
+  top:-0.25em;
+  // margin-right: 1em;
+  // outline: 100px solid red;
+  // float:right;
 }
-.for-businesses-add-to-cart-btn1 button {
-  border: none;
-  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 2.25em;
-  font-weight: bold;
-  color:#FFFCF5;
-  background-color: #420B3B;
-  padding: 0.75em 1em 0.25em 1em;
-  // padding-bottom: -1em;
-  // margin: -1em;
-  line-height: 1em;
-  position: relative;
-  top: -1.75em;
-  left: 6.5em;
-  border-radius: 2em;
-  // outline: 1px solid red;
-}
-.for-businesses-add-to-cart-btn1 button:hover {
-  background-color: #FFFCF5;
-  color: #420B3B;
+.forbusinesses-privacy-link a:link, .forbusinesses-privacy-link a:visited, .forbusinesses-privacy-link a:hover, .forbusinesses-privacy-link a:active {
+  text-decoration: none;
 }
 
-.for-businesses-premade-btn1 button {
-  border: none;
-  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
-  font-size: 2.25em;
-  font-weight: bold;
-  color:#FF8B2C;
-  background-color: #420B3B;
-  padding: 0.75em 1em 0.25em 1em;
-  // padding-bottom: -1em;
-  // margin: -1em;
-  line-height: 1em;
-  position: relative;
-  top: -0.75em;
-  left: 5.75em;
-  border-radius: 2em;
-  // outline: 1px solid red;
-}
-.for-businesses-premade-btn1 button:hover {
-  background-color: #FFFCF5;
-  color: #420B3B;
-}
+
+// Footer above
